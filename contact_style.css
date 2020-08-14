@@ -1,0 +1,59 @@
+.menu2_ {
+    margin: 30px;
+}
+
+.title {
+    font-size: 62px;
+}
+
+.title-desc{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#contact-form {
+    background-color: #f6f6f6;
+}
+
+#contact-form fieldset {
+    border: 2px solid #909090;
+}
+
+#contact-form legend {
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+#contact-form label {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    margin-left: 25px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 12px;
+}
+
+#error-para {
+    display: none;
+    margin: 4px;
+    padding: 10px 0px;
+    padding-left: 20px;
+    border-left: solid 4px #e66465;
+    background-color: #ffe7e8;
+}
+
+#submit {
+    background-color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

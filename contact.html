@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact_style.css">
+    <script src="script.js"></script>
+    <script src="contact_script.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        Tatsuro's Phone Store<br>
+    </div>
+
+    <div class="title-desc">
+        Contact Page
+    </div>
+
+    <div class="menu">
+        <div class="submenu">
+            <ul>
+                <li class="" id="mainbutton"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+
+        <div class="menu2 menu2_">
+            <form id="contact-form" action="https://httpbin.org/post" method="POST">
+                <fieldset>
+                    <legend>Contact Us</legend>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+                    <label for="emailaddr">Email:</label><br>
+                    <input type="email" name="emailaddr" id="emailaddr" placeholder="Enter your email" required><br>
+
+                    <label for="addr">Address:</label><br>
+                    <input type="text" name="addr" id="addr" placeholder="Enter address" required><br>
+
+                    <label for="city">City:</label><br>
+                    <input list="cities" name="city" id="city" placeholder="Select city" required>
+                    <datalist id="cities">
+                        <option value="Toronto">
+                        <option value="Vancouver">
+                        <option value="Montreal">
+                        <option value="Victoria">
+                        <option value="Halifax">
+                        <option value="Quebec City">
+                        <option value="Calgary">
+                        <option value="Ottawa">
+                        <option value="Edmonton">
+                    </datalist><br>
+
+                    <label for="postalcode">Postal Code:</label><br>
+                    <input type="text" name="postalcode" id="postalcode" placeholder="Enter Postal Code"
+                        required><br>
+
+                    <label for="problem-label">What is the problem about?</label><br>
+                    <input type="radio" id="ord" name="choice" value="order" onclick="getRadioValue(this.value)"
+                        checked>
+
+                    <label for="ord">Order<br></label>
+                    <input type="radio" id="que" name="choice" value="question" onclick="getRadioValue(this.value)">
+
+                    <label for="que">Question<br></label>
+                    <input type="radio" id="com" name="choice" value="comment" onclick="getRadioValue(this.value)">
+
+                    <label for="com">Comment<br></label>
+                    <input type="number" name="ordernum" id="ordernum" placeholder="Enter order number" required><br>
+
+                    <textarea name="message" id="message" cols="50" rows="15" required></textarea><br>
+                    <input type="hidden" name="my-name" id="my-name" value="Tatsuro Hayashi">
+                    <input type="submit" name="submit" id="submit">
+
+                    <p id="error-para"></p>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
