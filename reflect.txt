@@ -1,0 +1,29 @@
+Name: Tatsuro Hayashi
+Student ID: 137555199
+Course: WEB222
+Section: NAA
+Assignment: Final Assignment
+
+
+Throught this final assignment, I have learned how to validate input value. However this was hard for me and I had to use many knowledge of html and javascript that I learned in this semester.
+To do validate input value on contact page, firstly, I used "match" method for postalcode that find a character that an exact fit with characters I declared. If entered value includes any of other
+character, input is invalidated. Likewise, I used this method for email input. I create the pattern that input should follow the rule that is needed to enter in order any of characters and number,
+@ mark, and dot mark. I learned these from w3school.com and I eventually could execute javascript successfully.
+
+For making sure my contact form is working, I searched how to ensure that request is being sent. I used chrome browser for this test. At first, I opened inspect page by command "Ctrl" + "Shift" +
+"I" keys that I can check activities on this browser. In the second place, I clicked the "Network"tab and used filter utility. Then, I set the filter "method:Post" to get informtion about only posting.
+Finally, I clicked headers tab then I can check my request of contact form is completed to send or not. Status code indicates that sending request is succeeded or not. In my test, it was colored
+green that denote contact form sent request properly. Also, I checked input value is sent correctly. Near the bottom of headers tab, I could check what form data has been sent. When I check,
+all form date was same with I inputed as test.
+
+Lastly, I would like to give advice for new web programming learners that they should understand a small part of code step by step. I guess, All beginners cannot write long and complicated code.
+This is the key to improve their html, javascript, and css coding. This is because I could not write code if I won't follow WEB222 class. It is important for us to get knowledge how to execute
+functions, method, and so on. Also, I would like to give advice for new web programming learner that they should feel fun and having passion. I believe that this is the most important factor to be
+programmer. No doubt, there are a lot of difficulties to understand all code. However, feeling fun and passion is faster to imput knowledge to their brain than feeling bother during coding. 
+By doing that, they will be specialist that can code properly and website made by them is vibrant. In my case, I am grad to make my first website in my life. I was inspired to make website by
+myself. Thank you so much!
+
+
+
+
+
